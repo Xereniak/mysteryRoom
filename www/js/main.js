@@ -11,6 +11,14 @@ var app = new Framework7({
 });
 
 var mainView = app.views.create('.view-main');
-var swiper = app.swiper.create('.swiper-container', {
-    
-})
+
+$$ = Dom7;
+
+$$(document).on('page:init', '.page[data-name="/main/"]', function (e) {
+    var swiper = app.swiper.create('.swiper-container', {
+        speed: 200,
+        loop: true,
+        effect: 'fade'
+    });
+    console.log("we tried");
+});
