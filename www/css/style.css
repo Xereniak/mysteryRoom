@@ -1,1 +1,65 @@
+a#start.start--fab {
+    background: #333;
+}
 
+.img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img1 {
+    background-image: url('https://via.placeholder.com/1040x1920');
+}
+
+.img2 {
+    background-image: url('https://via.placeholder.com/1040x1920');
+}
+
+.img3 {
+    background-image: url('https://via.placeholder.com/1040x1920');
+}
+
+.img4 {
+    background-image: url('https://via.placeholder.com/1040x1920');
+}
+
+/* DEMO STYLES FROM F7 */
+/* A bit of demo styles */
+;
+
+.demo-swiper .swiper-slide {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+}
+
+.demo-swiper .swiper-slide {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #333;
+}
+
+.demo-swiper {
+    height: 100%;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide {
+    width: 85%;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 70%;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 30%;
+}
+
+/* END DEMO STYLES */
