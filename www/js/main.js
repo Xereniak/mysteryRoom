@@ -6,6 +6,14 @@ var app = new Framework7({
         {
             path: '/main/',
             url: 'pages/main.html'
+        },
+        {
+            path: '/chest/',
+            url: 'pages/chest.html'
+        },
+        {
+            path: '/couch/',
+            url: 'pages/couch.html'
         }
     ]
 });
@@ -23,10 +31,11 @@ $$(document).on('page:init', '.page[data-name="/main/"]', function (e) {
     console.log("we tried");
 });
 
-var img1 = '../img/IMG.main.1.covered.png'
-var img2 = '../img/IMG.main.2.blank.png'
-var img3 = '../img/IMG.main.3.blank.png'
-var img4 = '../img/IMG.main.4.png'
+//INITIALIZE GLOBAL IMAGE VARIABLES
+var img1 = '../img/IMG.main.1.covered.png';
+var img2 = '../img/IMG.main.2.blank.png';
+var img3 = '../img/IMG.main.3.blank.png';
+var img4 = '../img/IMG.main.4.png';
 
 $(document).on('click', function () {
     $('.img1').css('background-image', `url("${img1}")`);
@@ -35,4 +44,14 @@ $(document).on('click', function () {
     $('.img4').css('background-image', `url("${img4}")`);
 });
 
-console.log(`url("${img1}")`);
+//INITIALIZE GAME VARIABLES
+var drUnlk = false;
+var cubGrn = false;
+var cubRed = false;
+var cubBlu = false;
+var hands = false;
+var key = false;
+var carpet = false;
+var chest = false;
+var timSet = false;
+var handSet = false;
