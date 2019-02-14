@@ -11,19 +11,19 @@ a#start.start--fab {
 }
 
 .img1 {
-    background-image: url('https://via.placeholder.com/1040x1920');
+    background-image: url('../img/IMG.main.1.covered.png');
 }
 
 .img2 {
-    background-image: url('https://via.placeholder.com/1040x1730');
+    background-image: url('../img/IMG.main.2.blank.png');
 }
 
 .img3 {
-    background-image: url('https://via.placeholder.com/1040x1675');
+    background-image: url('../img/IMG.main.3.blank.png');
 }
 
 .img4 {
-    background-image: url('https://via.placeholder.com/1040x900');
+    background-image: url('../img/IMG.main.4.png');
 }
 
 /* DEMO STYLES FROM F7 */
