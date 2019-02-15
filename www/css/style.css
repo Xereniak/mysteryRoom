@@ -8,6 +8,7 @@ a#start.start--fab {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
 }
 
 .img1 {
@@ -24,6 +25,15 @@ a#start.start--fab {
 
 .img4 {
     background-image: url('../img/IMG.main.4.png');
+}
+
+.carpetZone {
+    height: 22%;
+    width: 60%;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    border: 1px grey solid;
 }
 
 /* DEMO STYLES FROM F7 */
