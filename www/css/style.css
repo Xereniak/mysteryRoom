@@ -27,14 +27,109 @@ a#start.start--fab {
     background-image: url('../img/IMG.main.4.png');
 }
 
+.imgChest {
+    background-image: url('../img/IMG.chest.closed.png');
+}
+
+.imgCouch {
+    background-image: url('../img/IMG.couch.png');
+}
+
+.cover-coveralls {
+    height: 100%;
+    width: 100%;
+    /*    background-color: white;*/
+}
+
+/*HITBOXES*/
 .carpetZone {
     height: 22%;
     width: 60%;
     position: absolute;
     top: 75%;
     left: 20%;
-    border: 1px grey solid;
 }
+
+.doorZone {
+    height: 37%;
+    width: 37%;
+    position: absolute;
+    top: 36%;
+    left: 31%;
+}
+
+.ccZone {
+    height: 18%;
+    width: 32%;
+    position: absolute;
+    top: 48%;
+    left: 57%;
+}
+
+.scZone {
+    height: 10%;
+    width: 18%;
+    position: absolute;
+    top: 61.5%;
+    left: 25%;
+}
+
+.drawerZone {
+    height: 22%;
+    width: 43%;
+    position: absolute;
+    top: 75%;
+    left: 12%;
+}
+
+.chcZone {
+    height: 28%;
+    width: 38%;
+    position: absolute;
+    top: 52%;
+    left: 60%;
+}
+
+.blkZone {
+    height: 7%;
+    width: 26%;
+    position: absolute;
+    top: 70%;
+    left: 8%;
+}
+
+.tcZone {
+    height: 12%;
+    width: 22%;
+    position: absolute;
+    top: 34%;
+    left: 73%;
+}
+
+.chestZone {
+    height: 19%;
+    width: 26%;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.fChestZone {
+    height: 38%;
+    width: 84%;
+    position: absolute;
+    top: 22%;
+    left: 9%;
+}
+
+.fCouchZone {
+    height: 12%;
+    width: 25%;
+    position: absolute;
+    top: 63%;
+    left: 72%;
+}
+
 
 /* DEMO STYLES FROM F7 */
 /* A bit of demo styles */
