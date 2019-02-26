@@ -46,8 +46,6 @@ $(document).on('click', function () {
     $('.img4').css('background-image', `url('${img4}')`);
     $('.imgChest').css('background-image', `url('${imgC}')`);
     $('.imgCouch').css('background-image', `url('${imgChc}')`);
-    console.log(drUnlk);
-
 });
 
 //INITIALIZE GAME VARIABLES
