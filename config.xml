@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Template Framework 7</name>
+<widget id="com.xereniak.mysteryroom" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Mystery Room Escape</name>
     <description>
-        A basic Framework7 template for PhoneGap.
+        A simple room escape game
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author href="http://tapsguide.000webhostapp.com/">
+        Xereniak Veronai Cherze
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -17,12 +17,8 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <preference name="android-minSdkVersion" value="14" />
+        <icon density="xldpi" src="www/res/icon-96-xhdpi.png" />
         <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-        <preference name="BackupWebStorage" value="none" />
     </platform>
     <preference name="DisallowOverscroll" value="true" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
